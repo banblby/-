@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite>
+	<id>S1</id>
+	<name>Master</name>
+	<description></description>
+	<sections>
+		<section>
+		<name>главная страница сайта</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C1</id>
+				<title>Поле ввода логин</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1.Зайти на главную страницу сайта.
+.</preconds>
+										<steps>1.открыть devtools.
+2.проверить наличие элемента.</steps>
+										<expected>Элемент есть.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C2</id>
+				<title>поле ввода пароль</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>открыть главную страницу сайта</preconds>
+										<steps>1открыть дефтулс
+2.проверить наличие элемента.</steps>
+										<expected>Элемент есть</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+</suite>
